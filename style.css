@@ -376,6 +376,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        /* width: 100%; */
     }
 
     .profile-img {
@@ -384,10 +385,12 @@ footer {
         height: 220px;
     }
     .intro h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        /* padding: none; */
 
     }
     .resume-btn {
         font-size: .8rem;
+        
 }
 }

@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f7fa;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -20,7 +20,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 4rem;
+    height: 3.6rem;
     z-index: 1000;
     padding: 15px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -379,8 +379,15 @@ footer {
     }
 
     .profile-img {
-        display: none;
-        /* width: 120px;
-        height: 120px; */
+        display: flex;
+        width: 220px;
+        height: 220px;
     }
+    .intro h1 {
+        font-size: 1.5rem;
+
+    }
+    .resume-btn {
+        font-size: .8rem;
+}
 }

@@ -441,25 +441,26 @@ footer {
   }
   
   .project-info {
-    padding: 20px;
-  }
-  
-  .project-info h3 {
-    margin-top: 0;
-    color: #0077cc;
-    font-size: 1.5rem;
-  }
-  
-  .project-info p {
-    color: #444;
-    font-size: 0.95rem;
-    margin: 10px 0 20px;
-  }
-  
+      padding: 20px;
+    }
+    
+    .project-info h3 {
+        margin-top: 0;
+        color: #0077cc;
+        font-size: 1.5rem;
+    }
+    
+    .project-info p {
+        color: #444;
+        font-size: 0.95rem;
+        margin: 10px 0 20px;
+    }
   .btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #0077cc;
+    align-self: center;
+    
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
